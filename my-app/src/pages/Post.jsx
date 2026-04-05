@@ -48,7 +48,7 @@ function Post() {
                 className="rounded-xl" />
 
             {isAuthor && (
-            <div>
+            <div className='flex gap-1.5 mt-1.5'>
                 <Link to={`/edit-post/${posts.$id}`}>
                 <Button>
                     Edit
